@@ -3,7 +3,7 @@ var Parse = require('parse/node');
 var Promise = require('promise');
 var config = require('./config');
 
-Parse.initialize(config.parse.appId, config.parse.js_key);
+Parse.initialize(config.parse.appId, config.parse.jsKey);
 
 var count = 100;
 var className = "Contact";
