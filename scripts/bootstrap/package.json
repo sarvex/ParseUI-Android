@@ -8,6 +8,9 @@
   },
   "author": "Grantland Chew",
   "license": "Platform License",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "dependencies": {
     "parse": "^1.6.13",
     "promise": "^7.1.1"
